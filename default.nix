@@ -4,6 +4,7 @@ pkgs.buildEnv {
   name = "my-tools";
   paths = [
     pkgs.curl
+    pkgs.ncurses
     pkgs.fd
     pkgs.fzf
     pkgs.fish
